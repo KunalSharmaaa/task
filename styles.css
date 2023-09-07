@@ -1,0 +1,165 @@
+body {
+  background-color: #1f1d32;
+}
+
+.KJ1-wrapper {
+  background: #292945;
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+span.KJ1-comment-text {
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "agency-fb-bold", sans-serif;
+}
+
+.KJ1 .KJ1-comment-wrapper,
+.KJ1-comment-wrapper-two,
+.KJ1-comment-wrapper-three {
+  display: block;
+  color: white;
+}
+
+.KJ1 .KJ1-comment-wrapper p,
+.KJ1-comment-wrapper-two p,
+.KJ1-comment-wrapper-three p {
+  margin-bottom: 0px;
+}
+
+.KJ1-comment-wrapper-two {
+  margin-left: 10%;
+}
+
+.KJ1-person-detail-wrapper {
+  display: flex;
+  margin-top: 30px;
+}
+
+.KJ1-person-detail {
+  padding-left: 25px;
+}
+
+.KJ1-comment-wrapper-three {
+  margin-left: 20%;
+}
+
+.KJ1-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-color: #3a3730;
+  background-color: #3a3730;
+}
+.KJ1-name {
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+}
+
+.KJ1-date {
+  color: lightblue;
+  margin: 0px;
+}
+
+.KJ1-reply-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.KJ1-reply {
+  float: right;
+  color: #3bd0da;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.KJ1-comment-text-wrapper {
+  margin-top: 20px;
+  padding-left: 73px;
+}
+
+span.KJ1-comment-reply {
+  color: lightblue;
+}
+
+.KJ1-leave-wrapper {
+  margin-top: 30px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px 0px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.KJ1-text-area {
+  width: 100%;
+  background: #181727;
+  color: #fff;
+  padding: 10px;
+  border: none;
+}
+
+.KJ1-cta {
+  background-image: linear-gradient(to right, #3dd0d8, #3dd0d8, #7d69e4);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+input#fname,
+input#mail,
+input#second {
+  background: #111;
+  color: #fff;
+  padding: 10px;
+}
+
+.compo {
+  max-width: 1080px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg-image {
+  height: 200px;
+  width: 100%;
+}
+
+.column-comp {
+  background-color: #3a3730;
+  color: white;
+  width: 30%;
+  height: 250px;
+  text-align: center;
+}
+
+.compo-text {
+  padding: 15px;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
